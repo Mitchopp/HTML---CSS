@@ -1,5 +1,6 @@
 .thumbnail {
   width: 300px;
+  display: block;
 }
 
 .search-bar {
@@ -12,4 +13,21 @@
   border: none;
   color: black;
   border-radius: 5px;
+  display: block;
+}
+
+.video-author {
+  font-weight: bold;
+}
+
+.video-stats {
+  color: grey;
+}
+
+.divtext {
+  display: inline-block;
+}
+
+.video-preview {
+  display: inline-block;
 }
