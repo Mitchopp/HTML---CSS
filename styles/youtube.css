@@ -1,0 +1,15 @@
+.thumbnail {
+  width: 300px;
+}
+
+.search-bar {
+  font-size: 20px;
+  margin-left: 20px;
+  background-color: blueviolet;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  border: none;
+  color: black;
+  border-radius: 5px;
+}

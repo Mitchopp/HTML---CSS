@@ -1,0 +1,63 @@
+p {
+  font-family: Roboto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.video-title {
+  font-weight: bold;
+  font-size: 18px;
+  width: 300px;
+  line-height: 24px;
+}
+
+.video-stats {
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+}
+
+.video-author {
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+  margin-bottom: 30px;
+}
+
+.apple-text {
+  margin-bottom: 50px;
+  font-size: 14px;
+  background-color: red;
+  color: white;
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.span-example:hover {
+  text-decoration: underline;
+}
+
+.apple-example:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.codecamp {
+  margin-top: 30px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.fadedcodecamp {
+  color: rgb(133, 130, 130);
+}
+
+.codecamp1 {
+  font-size: 14px;
+  width: 450px;
+  margin-bottom: 50px;
+}
+
+.codecampblue {
+  color: blue;
+  font-size: 14px;
+}
