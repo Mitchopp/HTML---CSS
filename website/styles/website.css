@@ -1,5 +1,7 @@
 body {
   background-color: black;
+  background-image: url("shooting-star-2024127_1920.png");
+  background-repeat: no-repeat;
 }
 
 p {
@@ -28,6 +30,8 @@ p {
 
 .Aboutme {
   background-color: rgb(106, 13, 173);
+  background-image: url("nebula-4607171_1280.jpg");
+  position: absolute;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -36,14 +40,15 @@ p {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin-left: 550px;
-  margin-top: 20px;
+  left: 270px;
+  top: 30px;
   cursor: pointer;
   transition: 0.3s;
 }
 
 .Aboutme:hover {
   background-color: rgb(139, 11, 231);
+  transform: scale(1.2);
 }
 
  .Aboutme:active {
@@ -52,6 +57,8 @@ p {
 
  .Helpage {
    background-color: rgb(106, 13, 173);
+   background-image: url("nebula-4607171_1280.jpg");
+   position: absolute;
    border: none;
    color: white;
    padding: 15px 32px;
@@ -60,14 +67,15 @@ p {
    text-decoration: none;
    display: inline-block;
    font-size: 16px;
-   margin-left: 20px;
-   margin-top: 20px;
+   left: 100px;
+   top: 30px;
    cursor: pointer;
    transition: 0.3s;
  }
 
  .Helpage:hover {
    background-color: rgb(139, 11, 231);
+   transform: scale(1.2);
  }
 
  .Helpage:active {
@@ -76,6 +84,8 @@ p {
 
  .AddOuter {
   background-color: rgb(106, 13, 173);
+  background-image: url("Outerbutton1.png");
+  position: absolute;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -84,14 +94,15 @@ p {
   text-decoration: none;
   display: block;
   font-size: 16px;
-  margin-left: 545px;
-  margin-top: 100px;
+  left: 568px;
+  top: 400px;
   cursor: pointer;
   transition: 0.3s;
  }
 
  .AddOuter:hover {
    background-color: rgb(139, 11, 231);
+   transform: scale(1.2);
  }
 
  .AddOuter:active {
@@ -100,6 +111,8 @@ p {
 
  .DashboardButton {
    background-color: rgb(106, 13, 173);
+   background-image: url("Outerbutton1.png");
+   position: absolute;
    border: none;
    color: white;
    padding: 15px 32px;
@@ -108,14 +121,15 @@ p {
    text-decoration: none;
    display: block;
    font-size: 16px;
-   margin-left: 550px;
-   margin-top: 30px;
+   left: 575px;
+   top: 300px;
    cursor: pointer;
    transition: 0.3s;
  }
 
  .DashboardButton:hover {
    background-color: rgb(139, 11, 231);
+   transform: scale(1.2);
  }
 
  .DashboardButton:active {
@@ -123,8 +137,48 @@ p {
  }
 
  .Addtext {
-   margin-left: 750px;
-   margin-top: 50px;
-   color: white;
-   font-size: 20px;
- }
+  position: absolute;
+  left: 500px;
+  top: 350px;
+  color: white;
+  font-size: 20px;
+}
+
+.image {
+  position: absolute;
+  width: 70px;
+  border-radius: 50%;
+  top: 20px;
+  left: 20px;
+}
+
+.Joinbutton {
+  background-color: rgb(106, 13, 173);
+  position: absolute;
+  background-image: url(nebula-4607171_1280.jpg);
+  border: none;
+  border-radius: 20px;
+  left: 550px;
+  top: 700px;
+  color: white;
+  cursor: pointer;
+  padding: 15px 32px;
+  transition: 0.3s;
+}
+
+.Joinbutton:hover {
+  background-color: rgb(139, 11, 231);
+  transform: scale(1.2);
+}
+
+.Joinbutton:active {
+  opacity: 0.5;
+}
+
+.Jointext {
+  position: absolute;
+  left: 450px;
+  top: 640px;
+  color: white;
+  font-size: 20px;
+}
